@@ -1,0 +1,39 @@
+Šta je ideja, 
+pass the game challange
+svako će imati do 4 sata da radi na igrici (ili dok ne završite debagovanje)
+možete kako oćete da izmenite igricu, ali na kraju kada je dovedete da radi
+predajte je sledećoj osobi koja ce da nastavi da radi na njoj.
+
+Pravila:
+1. Možete da je izmenite kako hoćete, tj. kako vama najvise odgovara, samo gledajte da nastavite rad od prethodne osobe
+2. Gledajte da međusobno ne komunicirate sve dok ne završite svoj deo, kako bi svaka osoba mogla da radi na onome što misli da je najbolje za igricu (želimo da bude što individualnija i zanimljivija kako za vas tako i za nas)
+3. Imate za pravo da radite na izgledu, funkcionalnostima, refaktorirate kod, muzici, levelima... šta god
+4. Možete da uradite koliko god malo ili mnogo želeli (4 linije koda ili 2 teksture, sve do gotovo cele igrice)
+5. Prosledite samo osobi za koju znate da će ozbiljno raditi na njoj
+6. Ovo je tajna; gledajte da nikome ne govorite za postojanje ovog projekta, ako već nije na listi
+
+Ako vas je ovo uplašilo, opustite se malo poenta ovog projekta je da se zabavimo, nešto naučimo
+i potencijalno napravimo neku zanimljivu igricu, pitajte za pomoć, guglajte sve što ne znate i molim vas don't judge my code
+
+Lista ljudi koji su radili na igrici:
+Čane
+
+-- kad zavrsite mozete proslediti projekat da vidimo kako se menjao kroz vreme
+https://github.com/cane122/Tajna-igrica
+-- Dokumentacija
+https://docs.godotengine.org/en/stable/getting_started/first_2d_game/index.html
+
+--- Q&A
+
+-- U Čemu pravimo igricu?
+Godot 4 imate na internetu, besplatan je i ima oko 115mb tako da možete svuda da ga pokrenete i da radite na njemu
+-- Smem li popraviti greške u ovom file-u?
+da, naravno kucao sam ovo u 4AM // Neka to bude standard očekivanog kvaliteta :)
+-- Nešto ne kontam i ne mogu da izguglam 
+slobodno iscimaj prethodnu osobu ili mene na diskordu/ github-u
+-- Kako računamo vreme
+generalno kada uđete u projekat da ga vidite po prvi put i pogledate šta je sve ima, prelistate kod onda možete pokrenuti tajmer 
+-- Zašto godot?
+ima mali file size, manje funkcionalnosti i time će biti lakši da se naviknu ljudi koji prvi put vide game engine
+
+

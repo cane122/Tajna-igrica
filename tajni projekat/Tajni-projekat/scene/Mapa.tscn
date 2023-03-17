@@ -1,0 +1,35 @@
+[gd_scene load_steps=5 format=3 uid="uid://hvmlpgkyh7lb"]
+
+[ext_resource type="PackedScene" uid="uid://cgxjns7rn5tku" path="res://scene/Enemy.tscn" id="1_c06l3"]
+[ext_resource type="PackedScene" uid="uid://345dqfkcyv5k" path="res://scene/Player.tscn" id="2_67i6c"]
+[ext_resource type="PackedScene" uid="uid://ba6yd34x6wykf" path="res://scene/ui.tscn" id="3_as6ed"]
+[ext_resource type="PackedScene" uid="uid://b316ywxotfrwh" path="res://scene/Car.tscn" id="4_g4jg2"]
+
+[node name="Mapa" type="Node2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="Background" type="Node" parent="."]
+
+[node name="TileMap" type="TileMap" parent="Background"]
+format = 2
+
+[node name="Enemy" parent="." instance=ExtResource("1_c06l3")]
+position = Vector2(100, 100)
+
+[node name="Player" parent="." instance=ExtResource("2_67i6c")]
+position = Vector2(400, 600)
+
+[node name="UI" parent="." instance=ExtResource("3_as6ed")]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.0
+offset_left = 970.0
+offset_right = 970.0
+grow_vertical = 1
+size_flags_horizontal = 4
+size_flags_vertical = 0
+
+[node name="Car" parent="." instance=ExtResource("4_g4jg2")]
+position = Vector2(1000, 500)

@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://ba6yd34x6wykf"]
+
+[ext_resource type="Script" path="res://scene/ui.gd" id="1_27nw8"]
+[ext_resource type="Theme" uid="uid://bywcwepkd7wbp" path="res://teme/tema_za_hp_bar.tres" id="1_mgkqs"]
+
+[node name="UI" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_27nw8")
+
+[node name="ProgressBar" type="ProgressBar" parent="."]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -266.0
+offset_right = 265.0
+offset_bottom = 46.0
+grow_horizontal = 2
+theme = ExtResource("1_mgkqs")
+value = 100.0
